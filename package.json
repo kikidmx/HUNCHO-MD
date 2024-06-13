@@ -2,22 +2,22 @@
   "name": "HUNCHO-MD",
   "version": "2.0.0",
   "description": "",
-  "main": "ibrahim.js",
+  "main": "keith.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "s": "node ibrahim.js",
-    "bmwmd": "pm2 start ibrahim.js --attach --max-memory-restart 490M",
+    "s": "node keith.js",
+    "hunchomd": "pm2 start keith.js --attach --max-memory-restart 490M",
     "c": "tsc"
   },
   "keywords": [
     "bot",
     "Baileys",
-    "BMW-Md",
+    "Huncho-Md",
     "whatsapp",
     "whatsapp-bot",
-    "ibrahimadams"
+    "keithkeizzah"
   ],
-  "author": "ibrahimaitech",
+  "author": "keithkeizzah",
   "license": "ISC",
   "dependencies": {
     "@adiwajshing/keyed-db": "^0.2.4",

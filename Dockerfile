@@ -9,7 +9,7 @@ RUN apt-get update && \
   npm i pm2 -g && \
   rm -rf /var/lib/apt/lists/*
   
-RUN git clone https://github.com/ibrahimaitech/IBRAHIM-AI-10.10.git  /root/BmwMD
+RUN git clone https://github.com/Keithkeizzah/HUNCHO-MD.git  /root/BmwMD
 WORKDIR /root/bmwmd/
 
 
@@ -21,5 +21,5 @@ COPY . .
 
 EXPOSE 5000
 
-CMD ["node", "ibrahim.js"]
+CMD ["node", "keith.js"]
 
